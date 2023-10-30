@@ -1,0 +1,24 @@
+/* Google fonts import */
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&family=Righteous&display=swap');
+
+  /* Color scheme and fonts variables */
+:root {
+    --primary-color: #4C243B;
+    --secondary-color: #AC7B84;
+    --heading-font: "Righteous", sans-serif;
+    --primary-font: "Raleway", sans-serif;
+  }
+
+  /* Add smooth scrolling effect to the website */
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+  }
+
+  body {
+    background-color: var(--secondary-color);
+    overflow-x: hidden;
+    text-align: center;
+    width: 100%;
+    position: relative;
+  }
