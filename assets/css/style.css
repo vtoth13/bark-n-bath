@@ -6,7 +6,7 @@
   --primary-clr: #AC7B84;
   --secondary-clr: #B84A62;
   --secondary-clr-light: #DCA5B1;
-  --clr-accent: #4C243B;
+  --accent-clr: #4C243B;
 
   --ff-primary: 'Raleway', sans-serif;
   --ff-secondary: 'Righteous', sans-seri;
@@ -38,9 +38,41 @@ html {
 }
 
 body {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-clr);
   overflow-x: hidden;
   text-align: center;
   width: 100%;
   position: relative;
+}
+
+header {
+  background-color: var(--accent-clr);
+  font-family: var(--ff-primary);
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 100%;
+  height: 5rem;
+}
+
+
+.nav_menu {
+  list-style: none;
+  display: flex;
+}
+
+.nav_menu li {
+  margin-right: 20px;
+}
+
+.nav_icon {
+  text-decoration: none;
+  color: white;
 }
