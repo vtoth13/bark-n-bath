@@ -45,23 +45,79 @@ body {
   position: relative;
 }
 
+.content {
+  display: grid;
+  flex: 1 0 auto;
+}
+
+/* ----- << Home Page Styling >> ----- */
+
+/* Header Styling */
+
 header {
   background-color: var(--accent-clr);
-  font-family: var(--ff-primary);
   position: fixed;
   width: 100%;
   z-index: 999;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
+
+/* Logo Styling */
 
 .logo img {
   max-width: 100%;
   height: 5rem;
 }
 
+
+/*Hamburger Styling*/
+
+.nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 0.8rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  display: block;
+  background: white;
+  height: 3px;
+  width: 2rem;
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  content: '';
+  position: absolute;
+}
+
+.nav-toggle-label span::before {
+  bottom: 0.7rem;
+}
+
+.nav-toggle-label span::after {
+  top: 0.7rem;
+}
+
+/* Menu Styling */
+
+.nav_container {
+  font-family: var(--ff-primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .nav_menu {
   list-style: none;

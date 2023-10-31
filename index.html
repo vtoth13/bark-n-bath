@@ -14,27 +14,38 @@
 
 <body>
   <header>
-
-    <div class="logo">
-      <img src="assets/images/logo_transparent2.png" alt="Bark 'n Bath logo">
+    <!--Nav bar content-->
+    <div class="nav_container">
+      <div class="logo">
+        <img src="assets/images/logo_transparent2.png" alt="Bark 'n Bath logo">
+      </div>
+      <!--Hamburger Menu element 1-->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <!--Nav bar menu-->
+      <nav>
+        <ul class="nav_menu">
+          <li>
+            <a href="index.html" class="nav_icon">Home</a>
+          </li>
+          <li>
+            <a href="services.html" class="nav_icon">Services</a>
+          </li>
+          <li>
+            <a href="gallery.html" class="nav_icon">Gallery</a>
+          </li>
+          <li>
+            <a href="contact.html" class="nav_icon">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <nav>
-      <ul class="nav_menu">
-        <li>
-          <a href="index.html" class="nav_icon">Home</a>
-        </li>
-        <li>
-          <a href="services.html" class="nav_icon">Services</a>
-        </li>
-        <li>
-          <a href="gallery.html" class="nav_icon">Gallery</a>
-        </li>
-        <li>
-          <a href="contact.html" class="nav_icon">Contact</a>
-        </li>
-      </ul>
-    </nav>
+    <!--Hamburger Menu element 2-->
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span></span>
+    </label>
   </header>
+  <!--Script for icons "Font Awesome"-->
+  <script src="https://kit.fontawesome.com/9237ee6e28.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
