@@ -9,7 +9,7 @@
   --accent-clr: #4C243B;
 
   --ff-primary: 'Raleway', sans-serif;
-  --ff-secondary: 'Righteous', sans-seri;
+  --ff-secondary: 'Righteous', sans-serif;
 
   --fw-n: 400;
   --fw-m: 600;
@@ -20,6 +20,35 @@
 
   --shadow: 0 0 1em rgba(0, 0, 0, .25);
   --br: 0.5em;
+}
+
+html {
+  font-size: calc(60% + 0.8vmin);
+}
+
+h1 {
+  font-family: var(--ff-secondary);
+  font-size: 3rem;
+}
+
+p {
+  font-family: var(--ff-primary);
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+button {
+  padding: 0.25rem;
+  background-color: var(--secondary-clr);
+  color: white;
+  font-family: var(--ff-primary);
+  font-size: 1.1rem;
+  border: solid black;
+}
+
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
 }
 
 /* ----- << Global Settings >> -----*/
@@ -68,48 +97,6 @@ header {
   height: 5rem;
 }
 
-
-/*Hamburger Styling*/
-
-.nav-toggle {
-  display: none;
-}
-
-.nav-toggle-label {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin-left: 0.8rem;
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
-
-.nav-toggle-label span,
-.nav-toggle-label span::before,
-.nav-toggle-label span::after {
-  display: block;
-  background: white;
-  height: 3px;
-  width: 2rem;
-  border-radius: 0.5rem;
-  position: relative;
-}
-
-.nav-toggle-label span::before,
-.nav-toggle-label span::after {
-  content: '';
-  position: absolute;
-}
-
-.nav-toggle-label span::before {
-  bottom: 0.7rem;
-}
-
-.nav-toggle-label span::after {
-  top: 0.7rem;
-}
-
 /* Menu Styling */
 
 .nav_container {
@@ -131,4 +118,25 @@ header {
 .nav_icon {
   text-decoration: none;
   color: white;
+}
+
+.top_image {
+  width: 100%;
+  height: auto;
+}
+
+/* Content */
+
+.about_us_container {
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.about_text {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
