@@ -152,6 +152,7 @@ header {
 }
 
 .our_team_heading {
+  padding-top: 5rem;
   padding-bottom: 2rem;
 }
 
@@ -169,4 +170,29 @@ header {
   flex-direction: column;
   justify-content: space-around;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.customers_said_hd {
+  padding-top: 5rem;
+}
+
+.customers_said {
+  margin: 0 5rem 0 5rem;
+  padding: 1rem;
+  font-style: italic;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.customer_profile {
+  border-radius: 50%;
+}
+
+hr {
+  margin: 0 auto;
+  height: 0.125rem;
+  max-width: 75%;
+  border-color: black;
 }
