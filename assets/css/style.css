@@ -31,6 +31,16 @@ h1 {
   font-size: 3rem;
 }
 
+h2 {
+  font-family: var(--ff-secondary);
+  font-size: 2.75rem;
+}
+
+h3 {
+  font-family: var(--ff-secondary);
+  font-size: 1.5rem;
+}
+
 p {
   font-family: var(--ff-primary);
   font-size: 1.1rem;
@@ -139,4 +149,24 @@ header {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+
+.our_team_heading {
+  padding-bottom: 2rem;
+}
+
+.our_team {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.our_team_cards {
+  padding: 2rem;
+  background-color: #DCA5B1;
+  max-width: 24rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
