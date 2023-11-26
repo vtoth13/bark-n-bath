@@ -196,3 +196,50 @@ hr {
   max-width: 75%;
   border-color: black;
 }
+
+.opening_hours {
+  padding: 3rem;
+}
+
+.opening_hours_time {
+  margin: 2rem;
+}
+
+/* Footer */
+
+footer {
+  height: 7rem;
+  background-color: #4C243B;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-direction: column;
+}
+
+.social_media {
+  list-style: none;
+  display: flex;
+}
+
+.social_media li {
+  display: block;
+  position: relative;
+  font-size: 230%;
+  height: 1.5rem;
+  width: 1.5rem;
+  line-height: 1.5rem;
+  margin: 0 1.125rem;
+}
+
+.social_media a {
+  color: white;
+}
+
+.social_media i {
+  transition: all 200ms ease-in-out;
+}
+
+.social_media i:hover {
+  transform: scale(1.2) rotate(4deg);
+}
