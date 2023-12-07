@@ -109,6 +109,8 @@ header {
 
 /* Menu Styling */
 
+
+
 .nav_container {
   font-family: var(--ff-primary);
   display: flex;
@@ -134,6 +136,8 @@ header {
   width: 100%;
   height: auto;
 }
+
+
 
 /* Content */
 
@@ -294,4 +298,31 @@ footer {
   height: 100%;
   vertical-align: middle;
   border-radius: 5px;
+}
+
+/* Services */
+
+.services_heading {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.services_cards {
+  padding: 2rem;
+  background-color: #DCA5B1;
+  max-width: 24rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#most_popular {
+  background-color: #B84A62;
 }
