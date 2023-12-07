@@ -308,6 +308,7 @@ footer {
 }
 
 .services {
+  margin: 2rem 2rem 5rem 2rem;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -325,4 +326,49 @@ footer {
 
 #most_popular {
   background-color: #B84A62;
+}
+
+.dog_paw_img {
+  margin: 5rem 0rem 2rem 0rem;
+}
+
+/* Contact form */
+
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: var(--secondary-clr);
+  color: white;
+  font-family: var(--ff-primary);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.label_format {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form_style {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type=submit] {
+  padding: 0.25rem;
+  background-color: white;
+  color: var(--accent-clr);
+  font-family: var(--ff-primary);
+  font-size: 1.1rem;
+  border: solid black;
+}
+
+input[type=submit]:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
 }
