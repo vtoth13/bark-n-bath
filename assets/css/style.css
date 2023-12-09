@@ -143,11 +143,6 @@ header {
   color: white;
 }
 
-.top_image {
-  width: 100%;
-  height: auto;
-}
-
 /* Content */
 
 .about_us_container {
@@ -299,6 +294,13 @@ footer {
   position: relative;
   height: 50rem;
   background: url('/assets/images/contact.webp') center/cover no-repeat;
+  text-align: center;
+}
+
+.hero_response {
+  position: relative;
+  height: 50rem;
+  background: url('/assets/images/dog_sitting_waiting.webp') center/cover no-repeat;
   text-align: center;
 }
 
