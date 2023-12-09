@@ -271,20 +271,39 @@ footer {
   transform: scale(1.2) rotate(4deg);
 }
 
-/* Image gallery */
+/* Hero Styling */
 
-.title_picture {
+.hero_home {
   position: relative;
+  height: 50rem;
+  background: url('/assets/images/dog_brushing.webp') center/cover no-repeat;
   text-align: center;
-  position: relative;
-  display: inline-block;
 }
 
-.title_picture img {
-  display: block;
-  width: 100%;
-  height: auto;
+.hero_services {
+  position: relative;
+  height: 50rem;
+  background: url('/assets/images/dog_spa_treatment.webp') center/cover no-repeat;
+  text-align: center;
+
 }
+
+.hero_gallery {
+  position: relative;
+  height: 50rem;
+  background: url('/assets/images/group-portrait-adorable-puppies.webp') center/cover no-repeat;
+  text-align: center;
+}
+
+.hero_contact {
+  position: relative;
+  height: 50rem;
+  background: url('/assets/images/contact.webp') center/cover no-repeat;
+  text-align: center;
+}
+
+
+/* Image gallery */
 
 .centered {
   position: absolute;
