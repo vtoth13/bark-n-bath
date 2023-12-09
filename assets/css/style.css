@@ -53,7 +53,9 @@ img {
 }
 
 .button {
-  padding: 0.25rem;
+  margin: 1.25rem auto;
+  padding: 0.625rem 1.25rem;
+  text-align: center;
   text-decoration: none;
   background-color: var(--secondary-clr);
   color: white;
@@ -141,42 +143,6 @@ header {
   height: auto;
 }
 
-@media only screen and (max-width: 768px) {
-  .menu-toggle {
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    order: 1;
-    /* Change the order to 1 to move it to the right */
-
-  }
-
-  .bar {
-    width: 25px;
-    height: 3px;
-    background-color: #fff;
-    /* Set the color to white */
-    margin: 3px 0;
-    transition: 0.4s;
-  }
-
-  .nav_menu {
-    display: none;
-  }
-
-  .nav_menu.active {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 70px;
-    left: 0;
-    background-color: var(--accent-clr);
-    width: 100%;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  }
-}
-
 /* Content */
 
 .about_us_container {
@@ -191,6 +157,12 @@ header {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+
+.about_text,
+.about_us_img {
+  width: 100%;
+  padding: 20px;
 }
 
 .our_team_heading {
@@ -240,6 +212,7 @@ hr {
 }
 
 .opening_hours {
+  text-align: center;
   padding: 3rem;
 }
 
@@ -262,9 +235,11 @@ footer {
 .social_media {
   list-style: none;
   display: flex;
+  justify-content: center;
 }
 
 .social_media li {
+  margin: 0 0.625rem;
   display: block;
   position: relative;
   font-size: 230%;
@@ -289,6 +264,8 @@ footer {
 /* Image gallery */
 
 .title_picture {
+  position: relative;
+  text-align: center;
   position: relative;
   display: inline-block;
 }
@@ -433,4 +410,86 @@ input[type=submit]:hover {
 
 .response_text h1 {
   margin: 2rem;
+}
+
+/* Responsive styling */
+
+@media only screen and (max-width: 768px) {
+  .menu-toggle {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    order: 1;
+  }
+
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+    transition: 0.4s;
+  }
+
+  .nav_menu {
+    display: none;
+  }
+
+  .nav_menu.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background-color: var(--accent-clr);
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  .about_us_container {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .our_team,
+  .customers_said {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav_menu {
+    margin-top: 0.625rem;
+  }
+
+  .title_picture {
+    text-align: center;
+  }
+
+  .about_text,
+  .about_us_img,
+  .our_team,
+  .customers_said,
+  .opening_hours {
+    margin: 1rem;
+    padding: 0.625rem;
+  }
+
+  .services {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .services_cards {
+    margin-bottom: 20px;
+  }
+
+  .opening_hours {
+    text-align: center;
+  }
+
 }
