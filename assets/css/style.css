@@ -138,6 +138,11 @@ header {
   color: white;
 }
 
+.nav_icon:hover {
+  text-decoration: underline;
+  color: white;
+}
+
 .top_image {
   width: 100%;
   height: auto;
