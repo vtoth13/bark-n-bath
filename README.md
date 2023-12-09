@@ -3,8 +3,7 @@
 ---
 
 # *Bark 'n bath dog grooming salon*
-
-The people can explore the Bark 'n Bath website to discover details about the "Bark 'n Bath" company and its dog grooming services. Visitors can easily reach out to schedule a dog grooming session or make an appointment.
+People can explore the Bark 'n Bath website to discover details about the "Bark 'n Bath" company and its dog grooming services. Visitors can easily reach out to schedule a dog grooming session or make an appointment.
 
 The site can be accessed by this [link](https://vtoth13.github.io/bark-n-bath/)
 
@@ -18,7 +17,7 @@ The site can be accessed by this [link](https://vtoth13.github.io/bark-n-bath/)
 * As a first-time visitor, I want to effortlessly navigate the website, so I can find the content I am looking for. 
 * As a first-time visitor, I want to learn about the team of the company, so I can get to know them before I even visit personally.
 * As a first-time visitor, I want to get an overview of the services, so I can decide which service I would like to use.
-* As a first-time visitor, I want to see other customers' opinion, so I can see whether the company is trustworthy.
+* As a first-time visitor, I want to see other customers' opinions, so I can see whether the company is trustworthy.
 * As a returning visitor, I want to see the opening hours, so I can visit the company in person. 
 * As a returning visitor, I want to find community links, so I can experience more about the company and its connections.
 * As a frequent user, I want a contact form, so I can easily request an appointment.
@@ -26,98 +25,68 @@ The site can be accessed by this [link](https://vtoth13.github.io/bark-n-bath/)
 
 ## Features
 
-+ ### Navbar
+### Home page
 
-+ ##### Navigation
-    - Positioned at the top of the page.
-    - Contains logo of the company on the left side.
-    - Contains navigation links on the right side:
-        * HOME - leads to the home page where users can learn about the company Animal Shelter.
-        * GALLERY - leads to the gallery page where users can see available animals in the Animal Shelter.
-        * CONTACT - leads to the contact form page where users can fill out the form in order to get in touch with the company.
-    - The links have animated hover effect.
-    - The navigation is clear and easy to understand for the user.
-    ![NavBar desktop](documentation/navbar_desktop.png)
+- ##### Navigation
 
-    - The navigation bar is responsive:
-        * On tablets: navigation bar is split into to lines: the first line filled with the logo and the second line filled with links. All elements are centered.
-        ![NavBar Tablets](documentation/navbar_tablets.png)
+  - Positioned at the top of the page.
+  - Contains the logo of the dog grooming salon in the left corner.
+  - On the right side, there are navigation links:
+    - Home - leads to the home page.
+    - Services - leads to the services page.
+    - Gallery - leads to the gallery page.
+    - Contact - leads to the contact form page.
+  - If the link of the page is hovered over, it's underlined.
+  - The navigation is clear and easy to understand for the user.
+  - The navigation bar is responsive and appears in the form of a hamburger menu on mobile devices.
 
-        * On mobile devices: 
-            - navigation bar filled with the logo in the center and a hamburger menu implemented on the left side of the navigation bar.      
-            ![NavBar Mobile Closed](documentation/navbar_mobile_closed.png)
-        
-            - When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
-            ![NavBar Mobile Open](documentation/navbar_mobile_open.png)
-
-
+  ![NavBar desktop](documentation/nav_bar.png)
+  ![NavBar mobile](documentation/nav_bar_mobile.png)
 
 ---
 
-+ ### Home Page
-
-    - Represent: 
-
-        * the main idea of the company.
-        * Emphasize the strong points of the company.
-        * Shows feedback from satisfied clients.
-        * Invites to fill out the contact form.
-
-
-    ![Home Page](documentation/home_page.png)
-
----
-
-+ #### Hero Section
-
-    - Hero section have a fixed background image.
-
-    - Hero section have the block section below the image that consist:
-
-        * The name of the company.
-        * Short description of the company's philosophy.
-        * Contact button that leads directly to the contact page.
-
-    
-    ![Hero Section](documentation/hero_section.png)
+- ##### Hero section
+  - Hero sections have background images.
+    - The hero section shows in the middle of the message on the page
+    - It has shadows
+    - It highlights the function of the page
+   ![Hero Section](documentation/hero_section.png)
 
 --- 
 
-+ #### Highlights Section
+- ##### About Us section
+  - The "About us" section contains an image on the right side, which shows the team members.
+  - The "About us" section provides information about the dog grooming salon.
+  - The "About us" section tells the user why they should visit this dog grooming salon.
+    ![About us section](documentation/about_us.png)
 
-    - Highlight Section has 4 cards with strong descriptive characteristics of the company.
+---
 
-    - Tells website visitors how well animals are in the Animal Shelter.
+- ##### Our Team section
+    - This section contains three cards of the three dog groomers.
+  - The cards show the experience and the picture of the staff members.
+  - The cards have shadows around them.
 
-    - Attracts viewers to use this company for animal adoption.
-
-    
-    ![Highlights Section](documentation/main_cons.png)
-
+  ![Our Team section](documentation/staff_members.png)
 
     ---
 + #### Testimonials Section
 
-    - Testimonials Section has three feedbacks from people who were satisfied with the company's service.
-
-    - Each card has a picture of an animal with its owner.
-
-    - Each card has a story from the people who had an experience of using the Animal Shelter.
-
-    - Each card has a name of the pet's owner.
-
+    - The Testimonials Section features three positive reviews from satisfied customers who experienced the company's excellent service.
+    - Each card has a picture of the animal's owner.
+    - There is also a Call to Action button.
 ​
     ![Testimonials Section](documentation/testimonials.png)
 
 
 ---
-+ #### Call to Action Section
++ #### Opening Hours Section
 
-    - Call to Action Section has an explicit message for the visitors of the website to contact the company.
+    - The Opening Hours section shows the customers when they can visit the salon.
 
-    - Is also has a button that directs to the contact page.
+    - It is also in bold font so it is easy to notice.
 ​
-    ![Call to Action Section](documentation/call_to_action.png)
+    ![Opening Hours Section](documentation/opening_hours.png)
 
 
 ---
