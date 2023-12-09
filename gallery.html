@@ -21,7 +21,11 @@
                     <img src="assets/images/logo_transparent2.png" alt="Bark 'n Bath logo">
                 </a>
             </div>
-
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
             <nav class="navigation">
                 <ul class="nav_menu">
                     <li><a href="index.html" class="nav_icon">Home</a></li>
@@ -130,6 +134,12 @@
         </ul>
     </footer>
     <script src="https://kit.fontawesome.com/ccfb8f5516.js" crossorigin="anonymous"></script>
+    <script>
+        // JavaScript to toggle the mobile menu
+        document.getElementById('mobile-menu').addEventListener('click', function () {
+            document.querySelector('.nav_menu').classList.toggle('active');
+        });
+    </script>
 </body>
 
 </html>
