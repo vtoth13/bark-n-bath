@@ -299,7 +299,7 @@ footer {
 
 .hero_response {
   position: relative;
-  height: 50rem;
+  height: 25rem;
   background: url('/assets/images/dog_sitting_waiting.webp') center/cover no-repeat;
   text-align: center;
 }
