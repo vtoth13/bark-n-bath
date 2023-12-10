@@ -290,7 +290,7 @@ footer {
 .hero_gallery {
   position: relative;
   height: 50rem;
-  background: url('/assets/images/group-portrait-adorable-puppies.webp') center/cover no-repeat;
+  background: url('group-portrait-adorable-puppies.webp') center/cover no-repeat;
   text-align: center;
 }
 
