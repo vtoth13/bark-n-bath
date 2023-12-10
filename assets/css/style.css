@@ -278,7 +278,7 @@ footer {
 .hero_services {
   position: relative;
   height: 50rem;
-  background: url('/assets/images/dog_spa_treatment.webp') center/cover no-repeat;
+  background: url('assets/images/dog_spa_treatment.webp') center/cover no-repeat;
   text-align: center;
 
 }
