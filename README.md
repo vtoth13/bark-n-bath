@@ -201,7 +201,7 @@ The site can be accessed by this [link](https://vtoth13.github.io/bark-n-bath/)
 #### Desktop
 
 - [Home Page - Desktop Screen](documentation/desktop_home_page.png)
-- [Response Page - Desktop Screen](documentation/desktop_services_page.png)
+- [Services Page - Desktop Screen](documentation/desktop_services_page.png)
 - [Gallery Page - Desktop Screen](documentation/desktop_gallery_page.png)
 - [Contact Page - Desktop Screen](documentation/desktop_contact_page.png)
 
