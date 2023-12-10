@@ -117,6 +117,7 @@ The site can be accessed by this [link](https://vtoth13.github.io/bark-n-bath/)
     - The Gallery page has a hero image and the name of the page.
     - It has photos of the animals that already used the services of the company.
         - The gallery is responsive: the size of the photo depends on the user's screen.
+    - The pictures have a shadow effect on hover.
     - It has a footer identical to the home page's footer.
     
 ​
