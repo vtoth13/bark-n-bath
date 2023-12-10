@@ -275,14 +275,14 @@ footer {
 .hero_home {
   position: relative;
   height: 50rem;
-  background: url('/assets/images/dog_brushing.webp') center/cover no-repeat;
+  background: url('../images/dog_brushing.webp') center/cover no-repeat;
   text-align: center;
 }
 
 .hero_services {
   position: relative;
   height: 50rem;
-  background: url('assets/images/dog_spa_treatment.webp') center/cover no-repeat;
+  background: url('../images/dog_spa_treatment.webp') center/cover no-repeat;
   text-align: center;
 
 }
@@ -290,21 +290,21 @@ footer {
 .hero_gallery {
   position: relative;
   height: 50rem;
-  background: url('group-portrait-adorable-puppies.webp') center/cover no-repeat;
+  background: url('../images/group-portrait-adorable-puppies.webp') center/cover no-repeat;
   text-align: center;
 }
 
 .hero_contact {
   position: relative;
   height: 50rem;
-  background: url('/assets/images/contact.webp') center/cover no-repeat;
+  background: url('../images/contact.webp') center/cover no-repeat;
   text-align: center;
 }
 
 .hero_response {
   position: relative;
   height: 25rem;
-  background: url('/assets/images/dog_sitting_waiting.webp') center/cover no-repeat;
+  background: url('../images/dog_sitting_waiting.webp') center/cover no-repeat;
   text-align: center;
 }
 
