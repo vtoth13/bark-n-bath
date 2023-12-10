@@ -111,8 +111,7 @@ header {
 /* Logo Styling */
 
 .logo img {
-  width: 100%;
-  max-width: 12.5rem;
+  width: min(50vw, 200px);
   height: auto;
 }
 
