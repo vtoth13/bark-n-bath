@@ -1,4 +1,4 @@
-![Bark 'n Bath logo](documentation/logo_transparent2.png)
+![Bark 'n Bath logo](documentation/logo.png)
 
 ---
 
@@ -92,99 +92,101 @@ The site can be accessed by this [link](https://vtoth13.github.io/bark-n-bath/)
 ---
 + #### Footer
 
-    - Footer contains social media links that open in a new tab.
+    - The Footer contains the social media links that open in a new tab.
 ​
     ![Footer](documentation/footer.png)
+
+    ---
+
+- #### Services Page
+
+  - The Services page contains the services provided by the company.
+  - The Services page also contains a hero section but with another background image and text.
+  - Under the hero section, there are four different sections:
+    - Most Popular services and a call to action button
+    - A picture
+    - Other services and a call to action button
+    - The opening hours
+  - Each of these sections tells the user about the services of the company.
+
+  ![Services page](documentation/services.png)
 ​
 ---
 + ### Gallery Page
 
-    - Gallery page has a hero image and an introduction message for the visitors that contains an incentive to contact the company.
-
-    - It has a button right after the introduction message that leads to the contact form page.
-
-    - It has photos of the animals that a present in the Animal Shelter in real-time.
-
+    - The Gallery page has a hero image and the name of the page.
+    - It has photos of the animals that already used the services of the company.
         - The gallery is responsive: the size of the photo depends on the user's screen.
-        - Each image has a description of the animal that appears on hover.
-        - description information contains the name of the animal and its characteristics.
-
-    - It has a call to action section below the gallery with the incentivizing message and the button that leads to the contact form.
-
     - It has a footer identical to the home page's footer.
     
 ​
-    ![Tour page](documentation/gallery_page.png)
+    ![Gallery page](documentation/gallery.png)
 
 
 ---
 + ### Contact page
 
-    - Contact page has a contact form:
-
+    - The Contact page has a contact form:
         - All text input fields are customized.
         - Labels are animated when the input field is in focus and are not empty.
-        - All inputs are set to be required to fill out.
-        - It has to checkboxes for the visitors to fill voluntary:
+        - All inputs are set to be required to be filled out exept the text field.
+        - It has two dropdown fields for the visitors to choose services.
 
-            - The 1st is - ADAPT, which helps the company to understand the motive of the visitor.
-            - The 2nd is - DONATE, which motivates users to consider financial support for the company. 
-
-        - The submit button is animated on hover.
-
+            - The 1st is - "Service of Choice", which helps the company plan the appointments.
+            - The 2nd is - "Breed size", which helps to company with the organization of the supplies.
+        - The submit button has a shadow on the hover.
     - The page is responsive on all common screen sizes.
-
     - The submit button leads to the response page.
 ​
-    ![Contact page](documentation/contact_form_page.png)
+    ![Contact page](documentation/contact.png)
 
 
 ---
 + ### Response page
 
-    - Response page appears after submitting the contact form.
-    - It contains the thank you message and the promise to get in touch with the applicant within 24 hours.
-    - It will automatically direct the user to the main page in 10 seconds.
+    - The Response page appears after submitting the contact form.
+    - It contains the thank you message and the promise to get in touch with the applicant.
+    - It has a button to return to the home page.
 
-    ![Response page](documentation/response_page.png)
+    ![Response page](documentation/response.png)
 
 ---
-## Technologies Used
 
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
-- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items simmetrically on the pages.
-- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) - was used to make "gallery" and "contact" pages responsive.
-- [CSS roots](https://developer.mozilla.org/en-US/docs/Web/CSS/:root) was used to declaring global CSS variables and apply them throughout the project. 
-- [Balsamiq](https://balsamiq.com/) was used to make wireframes for the website.
-- [VSCode](https://code.visualstudio.com/) was used as the main tool to write and edit code.
-- [Git](https://git-scm.com/) was used for the version control of the website.
-- [GitHub](https://github.com/) was used to host the code of the website.
-- [GIMP](https://www.gimp.org/) was used to make and resize images for the README file.
+## Technologies used
 
-
+- HTML - was used as the foundation of the site.
+- CSS - was used to add the styles and layout of the site, arrange items symmetrically on the pages, declare global CSS variables and apply them throughout the project.
+- Font Awesome icons - were used for the social media icons.
+- Google Fonts - were used to import fonts.
+- Balsamiq - was used to make wireframes for the website.
+- VS Code - was used as the main tool to write and edit code.
+- GitHub - was used to host the code of the website.
+- Photoshop - was used for the pictures in the README.md
 ---
 ## Design
 
 ### Color Scheme
 
-![Color pallet](documentation/color_pallet.png)
+![Color palette](documentation/color_scheme.png)
 
-- Soft blue color was used as the main color of the website due to its phycological effect on people's minds. As this color is associated with trustworthiness and reliability, website visitors could build a firm believe in the organization "Animal Shelter".
+- The Old Rose color was used as the main color of the website because the old rose conveys a vintage and nostalgic vibe, creating a sense of timeless charm and the muted tone of the old rose adds an element of subdued elegance.
 
-- Light Blue Color was used as a background color since this color creates a sense of tranquility and makes a connection between animal's ownership and peacefulness.
+- The Orchid Pink and the Raspberry Rose colors were used as backgrounds for the cards and buttons. 
 
-- Purple color was used to make an emphasis on the logo and leave a memorable effect on the website visitors.
+    - The Orchid Pink color brings a touch of femininity and elegance to the design and adds warmth and a welcoming feel to the overall aesthetic.
+    - The Raspberry Rose color serves as a bold accent color, drawing attention to specific elements and the vibrant hue represents passion and energy, injecting vitality into the design.
+
+- The Violet (JTC) color was used as the color of the navigation bar and the footer. Violet is associated with creativity and imagination, making it suitable for a visually engaging website. The color also has a calming effect, balancing the overall color palette.
 
 ### Typography
 
 ![Main Font](documentation/primary_font.png)
 
-- Lato Google Font was used as the main font of the website in order to increase readability of the content on the pages.
+- The Raleway Google Font was used as the main font of the website to increase the readability of the content on the pages.
 
 ![Accent Font](documentation/accent_font.png)
 
-- Lobster Google Font was used to attract viewers' attention to the company's logo, to make an accent on the strong points of the company, and to incentivize visitors to contact "Animal Shelter".
+- The Righteous Google Font was used to attract viewers' attention to the important pieces of information.
 
 
 ### Wireframes
@@ -196,13 +198,6 @@ The site can be accessed by this [link](https://vtoth13.github.io/bark-n-bath/)
 - [Contact Page. Mobile Screen](documentation/mobile_contact_form_page.png)
 - [Response Page. Mobile Screen](documentation/mobile_response_page.png)
 
-
-#### Tablets
-
-- [Home Page. Tablet Screen](documentation/tablet_home_page.png)
-- [Gallery Page. Tablet Screen](documentation/tablet_gallery_page.png)
-- [Contact Page. Tablet Screen](documentation/tablet_contact_form_page.png)
-- [Response Page. Tablet Screen](documentation/tablet_response_page.png)
 
 #### Desktop
 
@@ -323,3 +318,5 @@ In your IDE Terminal, type the following command to clone my repository:
 - [Kevin Powell](https://www.youtube.com/user/KepowOb) for his amazing CSS tutorials.
 
 ---
+
+[def]: documentation/color_scheme.png
