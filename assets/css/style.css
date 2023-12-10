@@ -111,8 +111,9 @@ header {
 /* Logo Styling */
 
 .logo img {
-  height: 5rem;
-  width: auto;
+  width: 100%;
+  max-width: 12.5rem;
+  height: auto;
 }
 
 /* Menu Styling */
