@@ -210,7 +210,34 @@ The site can be accessed by this [link](https://vtoth13.github.io/bark-n-bath/)
 
 ## Testing
 
-Please refer to the [TESTING.md](TESTING.md) file for all test-related documentation.
+### Testing
+
+- I tested that the website works in different browsers: Chrome, Firefox, and Brave.
+I used dev tools and [Responsive Website Design Tester](https://responsivedesignchecker.com/) to confirm that the website is responsive, looks and functions as it is supposed to on all standard screen sizes.
+- I tested all the links and confirmed that all of them work and lead where they are supposed to lead.
+
+### Bugs
+
+- ##### Solved bugs
+  - During the coding process, I encountered a challenge where the images were unresponsive on mobile devices, causing text distortion. Resolving this, I adjusted the height and width properties appropriately. 
+  - Another issue arose with non-functional "Contact Us" buttons, which was swiftly addressed by correcting the HTML tags. 
+  - Additionally, I had to switch some section tags to div tags to ensure proper validation. Each bug provided a learning opportunity, enhancing the overall functionality of the website.
+  ***
+- ##### Unsolved bugs
+  - None.
+
+---
+
+### Validator testing
+
+- ##### HTML
+  - No errors or warnings were found when passing through the official W3C validator.
+- ##### CSS
+  - No errors or warnings were found when passing through the official W3C (Jigsaw) validator.
+- ##### Accessibility and performance
+  - Using Google PageSpeed Insights I confirmed that the website is performing well, accessible and the colors and fonts chosen are readable.
+    ![Performance score](documentation/pagespeed_insights_testing.png)
+
 
 ---
 
@@ -257,6 +284,7 @@ In your IDE Terminal, type the following command to clone my repository:
 ## Acknowledgments
 
 - [Iuliia Konovalova](https://github.com/IuliiaKonovalova) was a great mentor and I express my sincere gratitude to my mentor for invaluable guidance and support throughout my project. Their expertise and encouragement significantly contributed to the success of this endeavor.
+- Norbert Bartus, my finacé played a crucial role in supporting and guiding me throughout this project. Their encouragement and assistance in deciphering the correct utilization of specific properties were immensely valuable.
 - [Code Institute](https://codeinstitute.net/) tutors and Slack community members for their support and help.
 - [Kevin Powell](https://www.youtube.com/user/KepowOb) for his amazing CSS tutorials.
 
