@@ -383,6 +383,11 @@ footer {
   margin: 5rem 0rem 2rem 0rem;
 }
 
+.dog_paw_img img {
+  object-fit: cover;
+  height: 30rem;
+}
+
 .services_container {
   margin: 2rem 0rem;
   display: flex;
