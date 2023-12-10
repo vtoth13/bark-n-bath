@@ -129,7 +129,7 @@ The site can be accessed by this [link](https://vtoth13.github.io/bark-n-bath/)
     - The Contact page has a contact form:
         - All text input fields are customized.
         - Labels are animated when the input field is in focus and are not empty.
-        - All inputs are set to be required to be filled out exept the text field.
+        - All inputs are set to be required to be filled out except the text field.
         - It has two dropdown fields for the visitors to choose services.
 
             - The 1st is - "Service of Choice", which helps the company plan the appointments.
@@ -194,17 +194,16 @@ The site can be accessed by this [link](https://vtoth13.github.io/bark-n-bath/)
 #### Mobile devices
 
 - [Home Page. Mobile Screen](documentation/mobile_home_page.png)
+- [Services Page. Mobile Screen](documentation/mobile_services_page.png)
 - [Gallery Page. Mobile Screen](documentation/mobile_gallery_page.png)
-- [Contact Page. Mobile Screen](documentation/mobile_contact_form_page.png)
-- [Response Page. Mobile Screen](documentation/mobile_response_page.png)
-
+- [Contact Page. Mobile Screen](documentation/mobile_contact_page.png)
 
 #### Desktop
 
 - [Home Page. Desktop Screen](documentation/desktop_home_page.png)
+- [Response Page. Desktop Screen](documentation/desktop_services_page.png)
 - [Gallery Page. Desktop Screen](documentation/desktop_gallery_page.png)
-- [Contact Page. Desktop Screen](documentation/desktop_contact_form_page.png)
-- [Response Page. Desktop Screen](documentation/desktop_response_page.png)
+- [Contact Page. Desktop Screen](documentation/desktop_contact_page.png)
 
 
 ---
@@ -221,102 +220,44 @@ Please refer to the [TESTING.md](TESTING.md) file for all test-related documenta
 ### Deployment to GitHub Pages
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the [GitHub repository](https://github.com/IuliiaKonovalova/animal_shelter), navigate to the Settings tab 
+  - In the [GitHub repository](https://github.com/vtoth13/bark-n-bath), navigate to the Settings tab 
   - From the source section drop-down menu, select the **Main** Branch, then click "Save".
   - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found [here](https://iuliiakonovalova.github.io/animal_shelter)
+The live link can be found [here](https://vtoth13.github.io/bark-n-bath/index.html)
 
 ### Local Deployment
-
-In order to make a local copy of this project, you can clone it.
+To make a local copy of this project, you can clone it.
 In your IDE Terminal, type the following command to clone my repository:
 
-- `git clone https://github.com/IuliiaKonovalova/animal_shelter.git`
+- `git clone https://github.com/vtoth13/bark-n-bath.git`
 
-- Alternatively, if you use Gitpod, you can [click here](https://gitpod.io/#https://github.com/IuliiaKonovalova/animal_shelter), which will start the Gitpod workspace for you.
+- Alternatively, if you use Gitpod, you can [click here](https://gitpod.io/#https://github.com/vtoth13/bark-n-bath), which will start the Gitpod workspace for you.
 
 ---
 
 ## Future improvements
 - add favicon with [Favicon Generator. For real.](https://realfavicongenerator.net/);
 - add custom 404 page;
-- add accessability report with [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/);
-- improve the quality of the commit messages (I am aware that some of them are not very clear and not meeting the standards and will improve them in the future);
-- add fully functional contact form.
-
+- add accessibility report with [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/);
+- improve the quality of the commit messages (I acknowledge that some of them are unclear and fall short of standards. I plan to enhance them in the future.)
 ---
-## Credits
 
-+ #### Content
+### Credits
 
-    - Inspiration for the gallery hover effect came from the article "How to add a gradient to overlay to a background image using just CSS and HTML" published the website [Web Dev etc](https://webdevetc.com).
-    - Inspiration for the responsive hamburger navbar came from [Kevin Powell](https://www.youtube.com/user/KepowOb) on his YouTube channel.
+- ##### Content
+  - The code to make social media links was taken from the Code Institute [Love Running](https://github.com/lexach91/love-running-project) project and modified to fit my website.
+  - To make a responsive hamburger menu I watched some videos of [Kevin Powell](https://www.youtube.com/user/KepowOb) on his YouTube channel.
 
-+ #### Media
-
-    - All the images for the website were taken from [Unsplash](https://unsplash.com/).
-    + [Hero image](https://unsplash.com/photos/9gz3wfHr65U);
-    + Main cons images:
-        - [1st image](https://unsplash.com/photos/_STvosrG-pw)
-        - [2nd image](https://unsplash.com/photos/v3-zcCWMjgM);
-        - [3rd image](https://unsplash.com/photos/W4EUiwceZjs);
-        - [4th image](https://unsplash.com/photos/sXU6BeWoZqI).
-    + Testimonial Section: 
-        - [1st image](https://unsplash.com/photos/UCFgM_AojFg);
-        - [2nd image](https://unsplash.com/photos/ISg37AI2A-s);
-        - [3rd image](https://unsplash.com/photos/2WeHZHIW6v0).
-    + Gallery:
-         - [1st image](https://unsplash.com/photos/gKXKBY-C-Dk);
-         - [2nd image](https://unsplash.com/photos/FdR_CoENqp8);
-         - [3rd image](https://unsplash.com/photos/C0zDWAPFT9A);
-         - [4th image](https://unsplash.com/photos/WrG-lFojjW4);
-         - [5th image](https://unsplash.com/photos/IbPxGLgJiMI);
-         - [6th image](https://unsplash.com/photos/tf2BKM9iy9o);
-         - [7th image](https://unsplash.com/photos/iYQC9xWMvw4);
-         - [8th image](https://unsplash.com/photos/o_QTeyGVWjQ);
-         - [9th image](https://unsplash.com/photos/AH7JYgyAlqA);
-         - [10th image](https://unsplash.com/photos/sssxyuZape8);
-         - [11th image](https://unsplash.com/photos/4tc7_jEgGzg);
-         - [12th image](https://unsplash.com/photos/GewH2PtoR1s);
-         - [13th image](https://unsplash.com/photos/7GX5aICb5i4);
-         - [14th image](https://unsplash.com/photos/VvO8e8n0Ffg);
-         - [15th image](https://unsplash.com/photos/1Y4LupdrDZk);
-         - [16th image](https://unsplash.com/photos/uumnRC_kVks);
-         - [17th image](https://unsplash.com/photos/h7VBJRBcieM);
-         - [18th image](https://unsplash.com/photos/Ud4k7O6CJPM);
-         - [19th image](https://unsplash.com/photos/ngqyo2AYYnE);
-         - [20th image](https://unsplash.com/photos/g3B53PbBfwU);
-         - [21st image](https://unsplash.com/photos/JSfsK9VH4q8);
-         - [22nd image](https://unsplash.com/photos/FilM6ng7VGQ);
-         - [23rd image](https://unsplash.com/photos/UtrE5DcgEyg);
-         - [24th image](https://unsplash.com/photos/IuJc2qh2TcA);
-         - [25th image](https://unsplash.com/photos/1-sM8xqPFTM);
-         - [26th image](https://unsplash.com/photos/zBvVuRJ71vU);
-         - [27th image](https://unsplash.com/photos/dEtvMzcbYiA);
-         - [28th image](https://unsplash.com/photos/J7rRzjba-kY);
-         - [29th image](https://unsplash.com/photos/mx0DEnfYxic);
-         - [30th image](https://unsplash.com/photos/VwqecUsYKvs);
-
-+ #### Tools
-
-    - [Compress JPEG](https://compressjpeg.com/) was used to compress JPEG images.
-    - [IMGonline.com.ua](https://www.imgonline.com.ua/eng/resize-image.php) was used to resize images.
-    - [EzGif](https://ezgif.com) was used to resize GIF images.
-    - [GIMP](https://www.gimp.org/) was used to edit all README.md images.
-    - [cooler](https://coolors.co/) was used to create the color palette.
-
+- ##### Media
+  - All the images for the website were taken from [Unsplash](https://unsplash.com/)
 
 ---
 
 ## Acknowledgments
 
-- [Tim Nelson](https://github.com/TravelTimN) was a great supporter of another bold idea of mine for this project. Tim guided me through the development of the project and helped me to learn a lot of new things by challenging me to do something new.
-- [Aleksei Konovalov](https://github.com/lexach91), my husband and coding partner, assisted me greatly in product values js selection control implementation and helped me to stay sane.
-- [Zulnara Buravtseva](https://www.linkedin.com/in/zulnaraburavtseva/), my dear friend, helped me to test the website and provided me with valuable feedback.
+- [Iuliia Konovalova](https://github.com/IuliiaKonovalova) was a great mentor and I express my sincere gratitude to my mentor for invaluable guidance and support throughout my project. Their expertise and encouragement significantly contributed to the success of this endeavor.
 - [Code Institute](https://codeinstitute.net/) tutors and Slack community members for their support and help.
 - [Kevin Powell](https://www.youtube.com/user/KepowOb) for his amazing CSS tutorials.
 
 ---
-
-[def]: documentation/color_scheme.png
