@@ -446,12 +446,13 @@ form {
   margin-bottom: 16px;
   box-sizing: border-box;
   border-radius: 4px;
+  resize: none;
 }
 
 input[type=submit] {
   padding: 0.25rem;
-  background-color: white;
-  color: var(--accent-clr);
+  background-color: var(--secondary-clr-light);
+  color: black;
   font-family: var(--ff-primary);
   font-size: 1.1rem;
 }
