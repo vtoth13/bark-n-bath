@@ -225,7 +225,7 @@ I used dev tools and [Responsive Website Design Tester](https://responsivedesign
   - Additionally, I had to switch some section tags to div tags to ensure proper validation. Each bug provided a learning opportunity, enhancing the overall functionality of the website.
   ***
 - ##### Unsolved bugs
-  - None.
+  - There's a bug in the code where users can pick a date from the past. To fix this, we need to use JavaScript, which follows in the future.
 
 ---
 
@@ -233,11 +233,22 @@ I used dev tools and [Responsive Website Design Tester](https://responsivedesign
 
 - ##### HTML
   - No errors or warnings were found when passing through the official W3C validator.
+    - [Home Page - Validation](documentation/home_validation.png)
+    - [Services Page - Validation](documentation/services_validation.png)
+    - [Gallery Page - Validation](documentation/gallery_validation.png)
+    - [Contact Page - Validation](documentation/contact_validation.png)
+    - [Response Page - Validation](documentation/response_validation.png)
+
 - ##### CSS
-  - No errors or warnings were found when passing through the official W3C (Jigsaw) validator.
+  - No errors or warnings were found when passing through the official W3C (Jigsaw) validator
+    - [CSS - Validation](documentation/css_validation.png)
 - ##### Accessibility and performance
   - Using Google PageSpeed Insights I confirmed that the website is performing well, accessible and the colors and fonts chosen are readable.
-    ![Performance score](documentation/pagespeed_insights_testing.png)
+    - [Home Page - Performance](documentation/home_performance.png)
+    - [Services Page - Performance](documentation/services_performance.png)
+    - [Gallery Page - Performance](documentation/gallery_performance.png)
+    - [Contact Page - Performance](documentation/contact_performance.png)
+    - [Response Page - Performance](documentation/response_performance.png)
 
 
 ---
@@ -268,6 +279,7 @@ In your IDE Terminal, type the following command to clone my repository:
 - add favicon with [Favicon Generator. For real.](https://realfavicongenerator.net/);
 - add custom 404 page;
 - add accessibility report with [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/);
+- fix the unsolved bug
 - improve the quality of the commit messages (I acknowledge that some of them are unclear and fall short of standards. I plan to enhance them in the future.)
 ---
 
