@@ -102,9 +102,7 @@ body {
 }
 
 /* ----- << Home Page Styling >> ----- */
-
 /* Header Styling */
-
 header {
   background-color: var(--accent-clr);
   position: fixed;
@@ -118,14 +116,12 @@ header {
 }
 
 /* Logo Styling */
-
 .logo img {
   width: min(50vw, 200px);
   height: auto;
 }
 
 /* Menu Styling */
-
 .nav_container {
   font-family: var(--ff-primary);
   display: flex;
@@ -163,7 +159,6 @@ main {
 }
 
 /* Content */
-
 .about_us_container {
   margin: 2rem;
   display: flex;
@@ -193,6 +188,7 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  width: 100%;
 }
 
 .our_team_cards {
@@ -249,7 +245,6 @@ hr {
 }
 
 /* Footer */
-
 footer {
   height: 7rem;
   background-color: #4C243B;
@@ -292,7 +287,6 @@ footer {
 }
 
 /* Hero Styling */
-
 .hero_image {
   position: relative;
   height: 50rem;
@@ -323,7 +317,6 @@ footer {
 
 
 /* Image gallery */
-
 .gallery_title {
   margin: 2rem;
 }
@@ -370,7 +363,6 @@ footer {
 }
 
 /* Services */
-
 .services_heading {
   padding-top: 5rem;
   padding-bottom: 2rem;
@@ -424,9 +416,9 @@ footer {
 }
 
 /* Contact form */
-
 form {
   max-width: 600px;
+  width: 90%;
   margin: 20px auto;
   background-color: var(--secondary-clr);
   color: white;
@@ -468,7 +460,6 @@ input[type=submit]:hover {
 }
 
 /* Response */
-
 .response_text {
   margin: 7rem 2rem 7rem 2rem;
 }
@@ -478,7 +469,6 @@ input[type=submit]:hover {
 }
 
 /* Responsive styling */
-
 @media only screen and (max-width: 768px) {
   .menu-toggle {
     cursor: pointer;
@@ -518,7 +508,91 @@ input[type=submit]:hover {
   }
 
   .our_team,
-  .customers_said {
+  .customers_said,
+  .services_container,
+  .other_services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav_menu {
+    margin-top: 0.625rem;
+  }
+
+  .title_picture {
+    text-align: center;
+  }
+
+  .about_text,
+  .about_us_img,
+  .our_team,
+  .customers_said,
+  .opening_hours {
+    margin: 1rem;
+    padding: 0.625rem;
+  }
+
+  .services {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .services_cards {
+    margin-bottom: 20px;
+  }
+
+  .opening_hours {
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 1020px) {
+  .menu-toggle {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    order: 1;
+  }
+
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+    transition: 0.4s;
+  }
+
+  /* .nav_menu {
+    display: none;
+  } */
+
+  .nav_menu.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background-color: var(--accent-clr);
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  .about_us_container {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .our_team,
+  .customers_said,
+  .services_container,
+  .other_services {
     display: flex;
     flex-direction: column;
     align-items: center;
