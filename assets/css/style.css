@@ -90,6 +90,11 @@ body {
   text-align: center;
   width: 100%;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 .content {
@@ -106,6 +111,10 @@ header {
   position: fixed;
   width: 100%;
   z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Logo Styling */
@@ -122,6 +131,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .nav_menu {
@@ -141,6 +151,15 @@ header {
 .nav_icon:hover {
   text-decoration: underline;
   color: white;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1 0 auto;
 }
 
 /* Content */
@@ -239,12 +258,14 @@ footer {
   justify-content: space-evenly;
   text-align: center;
   flex-direction: column;
+  width: 100%;
 }
 
 .social_media {
   list-style: none;
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .social_media li {
