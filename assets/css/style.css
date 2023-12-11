@@ -549,26 +549,6 @@ input[type=submit]:hover {
 }
 
 @media only screen and (max-width: 1020px) {
-  .menu-toggle {
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    order: 1;
-  }
-
-  .bar {
-    width: 25px;
-    height: 3px;
-    background-color: #fff;
-    margin: 3px 0;
-    transition: 0.4s;
-  }
-
-  /* .nav_menu {
-    display: none;
-  } */
-
   .nav_menu.active {
     display: flex;
     flex-direction: column;
