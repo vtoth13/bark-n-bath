@@ -392,12 +392,9 @@ footer {
 }
 
 .dog_paw_img {
-  margin: 5rem 0rem 2rem 0rem;
-}
-
-.dog_paw_img img {
-  object-fit: cover;
-  height: 30rem;
+  margin: 2rem 0rem;
+  background: url('../images/dog_paw_grooming.webp') center/cover no-repeat;
+  height: 25rem;
 }
 
 .services_container {
