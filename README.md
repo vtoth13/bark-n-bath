@@ -155,14 +155,14 @@ The site can be accessed by this [link](https://vtoth13.github.io/bark-n-bath/)
 
 ## Technologies used
 
-- HTML - was used as the foundation of the site.
-- CSS - was used to add the styles and layout of the site, arrange items symmetrically on the pages, declare global CSS variables and apply them throughout the project.
-- Font Awesome icons - were used for the social media icons.
-- Google Fonts - were used to import fonts.
-- Balsamiq - was used to make wireframes for the website.
-- VS Code - was used as the main tool to write and edit code.
-- GitHub - was used to host the code of the website.
-- Photoshop - was used for the pictures in the README.md
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - was used as the foundation of the site.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site, arrange items symmetrically on the pages, declare global CSS variables and apply them throughout the project.
+- [Font Awesome icons](https://fontawesome.com) - were used for the social media icons.
+- [Google Fonts](https://fonts.google.com) - were used to import fonts.
+- [Balsamiq](https://balsamiq.com) - was used to make wireframes for the website.
+- [VS Code](https://code.visualstudio.com) - was used as the main tool to write and edit code.
+- [GitHub](https://github.com) - was used to host the code of the website.
+- [Photoshop](https://www.adobe.com/products/photoshop.html) - was used for the pictures in the README.md
 ---
 ## Design
 
@@ -214,7 +214,26 @@ The site can be accessed by this [link](https://vtoth13.github.io/bark-n-bath/)
 ### Testing
 
 - I tested that the website works in different browsers: Chrome, Firefox, and Brave.
-I used dev tools and [Responsive Website Design Tester](https://responsivedesignchecker.com/) to confirm that the website is responsive, looks and functions as it is supposed to on all standard screen sizes.
+I used dev tools and [Responsive Viewer](https://chromewebstore.google.com/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb) to confirm that the website is responsive, looks and functions as it is supposed to on all standard screen sizes.
+  - Home Page 
+    - [Top part](documentation/home_page_top.png)
+    - [About us](documentation/home_page_about_us.png)
+    - [Our team](documentation/home_page_our_team.png)
+    - [Testimonials](documentation/home_page_testimonial.png)
+  - Services Page
+    - [Top part](documentation/services_page_top.png)
+    - [Most popular](documentation/services_page_most_popular.png)
+    - [Image](documentation/services_page_image.png)
+    - [Other services](documentation/services_page_other_services.png)
+    - [Opening Hours](documentation/services_page_opening_hours.png)
+  - Gallery Page
+    - [Top part](documentation/gallery_page_top.png)
+    - [Grid](documentation/gallery_page_grid.png)
+  - Contact Page
+    - [Top part](documentation/contact_page_top.png)
+    - [Contact form](documentation/contact_page_contact_form.png)
+    - [Opening hours](documentation/contact_page_opening_hours.png)
+  - [Response Page](documentation/response_page.png)
 - I tested all the links and confirmed that all of them work and lead where they are supposed to lead.
 
 ### Bugs
@@ -290,7 +309,31 @@ In your IDE Terminal, type the following command to clone my repository:
   - To make a responsive hamburger menu I watched some videos of [Kevin Powell](https://www.youtube.com/user/KepowOb) on his YouTube channel.
 
 - ##### Media
-  - All the images for the website were taken from [Unsplash](https://unsplash.com/)
+  - All the images for the website were taken from [Unsplash](https://unsplash.com/), [Freepik](https://freepik.com) and [iStock](https://istockphoto.com)
+    - Unsplash
+      - [Photo #1](https://unsplash.com/de/fotos/frau-im-grauen-rundhals-t-shirt-neben-frau-in-schwarz-grauem-langarm-oh6FswCTTmY)
+      - [Photo #2](https://unsplash.com/de/fotos/drei-frauen-mit-schere-und-pinsel-fI-TKWjKYls)
+      - [Photo #3](https://unsplash.com/de/fotos/weisses-und-braunes-langes-fell-grosser-hund-U3aF7hgUSrk)
+      - [Photo #4](https://unsplash.com/de/fotos/gesicht-des-hundes-2l0CWTpcChI)
+      - [Photo #5](https://unsplash.com/de/fotos/braun-weisser-corgi-welpe-1QsQRkxnU6I)
+      - [Photo #6](https://unsplash.com/de/fotos/brauner-kurzhaariger-hund-auf-grauer-couch-s9Tf1eBDFqw)
+      - [Photo #7](https://unsplash.com/de/fotos/ein-braun-weisser-hund-mit-einer-roten-schleife-auf-dem-kopf-hjzs2nA4y-k)
+      - [Photo #8](https://unsplash.com/de/fotos/erwachsener-grauer-hund-auf-unbefestigter-strasse-UQVQpSiNyYc)
+      - [Photo #9](https://unsplash.com/de/fotos/deutscher-spitz-klein-wQLO840IuL8)
+      - [Photo #10](https://unsplash.com/de/fotos/brauner-kurzhaariger-hund-mit-herausgestreckter-zunge-ySCr2Bg08TM)
+      - [Photo #11](https://unsplash.com/de/fotos/weisser-hund-der-auf-gras-sitzt-YQkr2e4hrdM)
+      - [Photo #12](https://unsplash.com/de/fotos/schwarzer-langer-mantel-kleiner-hund-auf-grauem-sofa-XVdogz-HVm4)
+      - [Photo #13](https://unsplash.com/de/fotos/golden-retriever-tagsuber-auf-dem-boden-liegend-wNRutxmyR8w)
+      - [Photo #14](https://unsplash.com/de/fotos/braun-weisser-langer-mantel-kleiner-hund-auf-grauer-betonstrasse-tagsuber-EC9FvxCbf7o)
+      - [Photo #15](https://unsplash.com/de/fotos/weisser-und-brauner-beagle-tagsuber-auf-grunem-gras--xFcBvbwLAU)
+      - [Photo #16](https://unsplash.com/de/fotos/ein-brauner-hund-steht-auf-einem-felsen-R7j9U_inaZw)
+      - [Photo #17](https://unsplash.com/de/fotos/brauner-hund-zoF_dgsldlY)
+      - [Photo #18](https://unsplash.com/de/fotos/ausgewachsener-gelber-hund-mit-langem-fell-35p5-Z3Zyzo)
+    - iStock
+      - [Photo #1](https://unsplash.com/de/fotos/ausgewachsener-gelber-hund-mit-langem-fell-35p5-Z3Zyzo)
+    - Freepik
+      - [Photo #1](https://www.freepik.com/premium-photo/groomer-washes-dog-bathroom_27138566.htm)
+      - [Photo #2](https://de.freepik.com/fotos-kostenlos/gruppenportrait-der-entzueckenden-welpen_3532149.htm#query=dogs&position=33&from_view=search&track=sph&uuid=b68506be-49cb-4699-81d9-5e7a30cba7a1)
 
 ---
 
