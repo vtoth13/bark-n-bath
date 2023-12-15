@@ -498,6 +498,11 @@ input[type=submit]:hover {
     padding: 1rem;
   }
 
+  .nav_menu li {
+    padding: 0.25rem;
+  }
+
+
   .title_picture {
     text-align: center;
   }
@@ -548,6 +553,10 @@ input[type=submit]:hover {
 
   .nav_menu {
     display: none;
+  }
+
+  .nav_menu li {
+    padding: 0.25rem;
   }
 
   .nav_menu.active {
