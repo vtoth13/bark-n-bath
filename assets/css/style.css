@@ -466,6 +466,69 @@ input[type=submit]:hover {
 }
 
 /* Responsive styling */
+@media only screen and (max-width: 1020px) {
+  .nav_menu.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background-color: var(--accent-clr);
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  .about_us_container {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .our_team,
+  .customers_said,
+  .services_container,
+  .other_services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav_menu {
+    margin-top: 0.625rem;
+    padding: 1rem;
+  }
+
+  .title_picture {
+    text-align: center;
+  }
+
+  .about_text,
+  .about_us_img,
+  .our_team,
+  .customers_said,
+  .opening_hours {
+    margin: 1rem;
+    padding: 0.625rem;
+  }
+
+  .services {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .services_cards {
+    margin-bottom: 20px;
+  }
+
+  .opening_hours {
+    text-align: center;
+  }
+
+}
+
 @media only screen and (max-width: 768px) {
   .menu-toggle {
     cursor: pointer;
@@ -515,68 +578,7 @@ input[type=submit]:hover {
 
   .nav_menu {
     margin-top: 0.625rem;
-  }
-
-  .title_picture {
-    text-align: center;
-  }
-
-  .about_text,
-  .about_us_img,
-  .our_team,
-  .customers_said,
-  .opening_hours {
-    margin: 1rem;
-    padding: 0.625rem;
-  }
-
-  .services {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .services_cards {
-    margin-bottom: 20px;
-  }
-
-  .opening_hours {
-    text-align: center;
-  }
-
-}
-
-@media only screen and (max-width: 1020px) {
-  .nav_menu.active {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 70px;
-    left: 0;
-    background-color: var(--accent-clr);
-    width: 100%;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  }
-
-  .about_us_container {
-    margin: 2rem;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .our_team,
-  .customers_said,
-  .services_container,
-  .other_services {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .nav_menu {
-    margin-top: 0.625rem;
+    padding: 1rem;
   }
 
   .title_picture {
