@@ -42,6 +42,7 @@ The site can be accessed by this [link](https://vtoth13.github.io/bark-n-bath/)
 
   ![NavBar desktop](documentation/nav_bar.png)
   ![NavBar mobile](documentation/nav_bar_mobile.png)
+  ![NavBar opened mobile](documentation/nav_menu_opened.png)
 
 ---
 
@@ -157,11 +158,14 @@ The site can be accessed by this [link](https://vtoth13.github.io/bark-n-bath/)
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - was used as the foundation of the site.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site, arrange items symmetrically on the pages, declare global CSS variables and apply them throughout the project.
+- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items symmetrically on the pages.
+- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) - was used to make the "gallery" page responsive.
 - [Font Awesome icons](https://fontawesome.com) - were used for the social media icons.
 - [Google Fonts](https://fonts.google.com) - were used to import fonts.
 - [Balsamiq](https://balsamiq.com) - was used to make wireframes for the website.
 - [VS Code](https://code.visualstudio.com) - was used as the main tool to write and edit code.
 - [GitHub](https://github.com) - was used to host the code of the website.
+- [GitHub Pages](https://pages.github.com) - was used to present the website.
 - [Photoshop](https://www.adobe.com/products/photoshop.html) - was used for the pictures in the README.md
 ---
 ## Design
@@ -187,7 +191,7 @@ The site can be accessed by this [link](https://vtoth13.github.io/bark-n-bath/)
 
 ![Accent Font](documentation/accent_font.png)
 
-- The Righteous Google Font was used to attract viewers' attention to the important pieces of information.
+- The Righteous Google Font was used to attract viewers' attention to important pieces of information.
 
 
 ### Wireframes
@@ -211,7 +215,7 @@ The site can be accessed by this [link](https://vtoth13.github.io/bark-n-bath/)
 
 ## Testing
 
-### Testing
+### Responsivness Testing
 
 - I tested that the website works in different browsers: Chrome, Firefox, and Brave.
 I used dev tools and [Responsive Viewer](https://chromewebstore.google.com/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb) to confirm that the website is responsive, looks and functions as it is supposed to on all standard screen sizes.
@@ -236,12 +240,20 @@ I used dev tools and [Responsive Viewer](https://chromewebstore.google.com/detai
   - [Response Page](documentation/response_page.png)
 - I tested all the links and confirmed that all of them work and lead where they are supposed to lead.
 
+### Compatibility Testing
+
+- [Google Chrome - Desktop](documentation/google_chrome_desktop.png)
+- [Safari - Desktop](documentation/safari_desktop.png)
+- [Firefox - Desktop](documentation/firefox_desktop.png)
+- [Brave - Mobile](documentation/brave_mobile.png)
+- [Safari - Mobile](documentation/safari_mobile.jpeg)
+
 ### Bugs
 
 - ##### Solved bugs
   - During the coding process, I encountered a challenge where the images were unresponsive on mobile devices, causing text distortion. Resolving this, I adjusted the height and width properties appropriately. 
   - Another issue arose with non-functional "Contact Us" buttons, which was swiftly addressed by correcting the HTML tags. 
-  - Additionally, I had to switch some section tags to div tags to ensure proper validation. Each bug provided a learning opportunity, enhancing the overall functionality of the website.
+  - Additionally, I had to switch some section tags to div tags to ensure proper validation because I didn't have headings in the sections. Each bug provided a learning opportunity, enhancing the overall functionality of the website.
   ***
 - ##### Unsolved bugs
   - There's a bug in the code where users can pick a date from the past. To fix this, we need to use JavaScript, which follows in the future.
@@ -254,7 +266,7 @@ I used dev tools and [Responsive Viewer](https://chromewebstore.google.com/detai
   - No errors or warnings were found when passing through the official W3C validator.
     - [Home Page - Validation](documentation/home_validation.png)
     - [Services Page - Validation](documentation/services_validation.png)
-    - [Gallery Page - Validation](documentation/gallery_validation.png)
+    - [Gallery Page - Validation](documentation/gallery_validation.png) (I'm aware that there is information because of the space before the closing tag)
     - [Contact Page - Validation](documentation/contact_validation.png)
     - [Response Page - Validation](documentation/response_validation.png)
 
